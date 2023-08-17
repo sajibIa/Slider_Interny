@@ -1,0 +1,13 @@
+.carousel-caption{
+    background-color: rgba(0,0,0,0.4);
+}
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.carousel-control-prev, .carousel-control-next {
+    &:hover{
+        background-color: rgba(0,0,0,0.4); 
+    }
+}
